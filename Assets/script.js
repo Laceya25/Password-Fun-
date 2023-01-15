@@ -50,11 +50,11 @@ function generatePassword() {
     },
 
     function getUpperCases() {
-      return +String.fromCharCode(Math.floor(Math.random() * 26 + 65));
+      return String.fromCharCode(Math.floor(Math.random() * 26 + 65));
     },
 
     function getSpecialCharacters() {
-      return specialCharacters(Math.floor(Math.random() * specialCharacters.length));
+      return specialCharacters[Math.floor(Math.random() * specialCharacters.length)];
     }
 
   ];
@@ -62,25 +62,25 @@ function generatePassword() {
   // Checks to make sure user selected ok for all and uses empty minimums from above
 
   if (numbers === true) {
-    minimumNumbers = functionArray[0];
+    minimumNumbers = functionArray[0]();
     minimumCount++;
 
   }
 
   if (lowerCases === true) {
-    minimumLowerCases = functionArray[1];
+    minimumLowerCases = functionArray[1]();
     minimumCount++;
 
   }
 
   if (upperCases === true) {
-    minimumUpperCases = functionArray[2];
+    minimumUpperCases = functionArray[2]();
     minimumCount++;
 
   }
 
   if (special === true) {
-    minimumSpecialCharacters = functionArray[3];
+    minimumSpecialCharacters = functionArray[3]();
     minimumCount++;
 
   }
