@@ -1,2 +1,0 @@
-# Password-Fun-
-Password-Generator
