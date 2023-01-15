@@ -24,16 +24,16 @@ function generatePassword() {
 
   if (charQty > 7 && charQty < 129) {
     var lowerCase = window.confirm(
-      "Would you like to include lower case letters? Select yes to include or cancel to move ahead"
+      "Would you like to include lower case letters? Select Ok to include or Cancel to move ahead"
     );
 
     var upperCase = window.confirm(
-      "Would you like to include upper case letters? Select yes to include or cancel to move ahead"
+      "Would you like to include upper case letters? Select OK to include or Cancel to move ahead"
     );
 
-    var numeric = window.confirm("Include numbers? Select yes to include or cancel to move ahead");
+    var numeric = window.confirm("Include numbers? Select Ok to include or Cancel to move ahead");
 
-    var specChar = window.confirm("Special Characters? Select yes to include or cancel to move ahead");
+    var specChar = window.confirm("Special Characters? Select Ok or Cancel to move ahead");
   } else {
     window.alert("That is an invalid entry. Select a length between 8 and 128");
     return generatePassword();
