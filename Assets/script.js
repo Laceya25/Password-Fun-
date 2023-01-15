@@ -17,7 +17,7 @@ const specCharArray = myArraySpecial.map((x) => String.fromCharCode(x));
 function generatePassword() {
   var results = "";
   var numberOfCharacters = window.prompt(
-    "How long would you like your password to be?"
+    "How long would you like your password? between 8 and 128 characters?"
     
   );
   var charQty = parseInt(numberOfCharacters);

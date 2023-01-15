@@ -1,7 +1,9 @@
 # Password-Fun-
 
-This website was created for the intention of creating a password based on completed prompts, such as special charactors, numbers and lower & uppercase letters.
+Deployment link: https://laceya25.github.io/Password-Fun-/
 
+
+This website was created for the intention of creating a password based on completed prompts, such as special charactors, numbers and lower & uppercase letters.
 
 
 
