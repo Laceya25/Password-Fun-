@@ -1,6 +1,8 @@
 # Password-Fun-
 
+This website was created for the intention of creating a password based on completed prompts, such as special charactors, numbers and lower & uppercase letters.
 
-## How I Started 
-I watched 100 tutorials to understand the commands. I added the starter code and made adjustments as I went.
-I started by entering variables for the function so it would prompt as needed. 
+
+
+
+![Alt text](./Images/Screenshot%202023-01-15%20at%201.59.32%20PM.png)
